@@ -1,0 +1,190 @@
+{
+    "version": "2.0",
+    "title": "Quiz Chef IA Otimizado",
+    "description": "Descubra se você está precificando certo",
+    "phases": [
+          {
+                  "id": "qualification",
+                  "name": "Qualificação",
+                  "description": "Entender sua situação atual",
+                  "questions": [
+                            {
+                                        "id": "q1",
+                                        "text": "Qual é sua situação atual?",
+                                        "type": "single",
+                                        "options": [
+                                                      "Ainda não vendo, mas quero começar",
+                                                      "Vendo por encomenda pra amigos e família",
+                                                      "Já tenho clientes fixos, mas sem organização",
+                                                      "Tenho um fluxo grande de pedidos e preciso profissionalizar"
+                                        ]
+                            },
+                            {
+                                        "id": "q2",
+                                        "text": "Qual é seu maior desafio agora?",
+                                        "type": "single",
+                                        "options": [
+                                                      "Precificar corretamente meus produtos",
+                                                      "Organizar meus pedidos e processos",
+                                                      "Aumentar minha margem de lucro",
+                                                      "Gerenciar o tempo e não perder clientes"
+                                        ]
+                            },
+                            {
+                                        "id": "q3",
+                                        "text": "Qual é seu faturamento mensal aproximado?",
+                                        "type": "single",
+                                        "options": [
+                                                      "Menos de R$ 1.000",
+                                                      "R$ 1.000 - R$ 3.000",
+                                                      "R$ 3.000 - R$ 10.000",
+                                                      "Acima de R$ 10.000"
+                                        ]
+                            }
+                  ]
+          },
+          {
+                  "id": "problem",
+                  "name": "Problema",
+                  "description": "Aprofundar na dor",
+                  "questions": [
+                            {
+                                        "id": "q4",
+                                        "text": "Qual o maior estresse emocional que você sente?",
+                                        "type": "single",
+                                        "options": [
+                                                      "Medo de não vender o suficiente",
+                                                      "Ansiedade sobre organização",
+                                                      "Frustração com preços baixos",
+                                                      "Sensação de estar sempre correndo"
+                                        ]
+                            },
+                            {
+                                        "id": "q5",
+                                        "text": "Já tentou resolver esse problema? Como?",
+                                        "type": "single",
+                                        "options": [
+                                                      "Nunca tentei nada estruturado",
+                                                      "Tentei por conta própria sem sucesso",
+                                                      "Usei planilhas ou anotações",
+                                                      "Procurei cursos ou mentoria"
+                                        ]
+                            },
+                            {
+                                        "id": "q6",
+                                        "text": "Qual é seu maior medo para o futuro do negócio?",
+                                        "type": "single",
+                                        "options": [
+                                                      "Quebrar financeiramente",
+                                                      "Perder meus clientes",
+                                                      "Não conseguir crescer",
+                                                      "Continuará na mesma situação"
+                                        ]
+                            },
+                            {
+                                        "id": "q7",
+                                        "text": "De 1 a 10, qual sua disposição em mudar?",
+                                        "type": "single",
+                                        "options": [
+                                                      "1-3: Tenho dúvidas",
+                                                      "4-6: Estou considerando",
+                                                      "7-8: Estou comprometido",
+                                                      "9-10: Vou fazer acontecer"
+                                        ]
+                            }
+                  ]
+          },
+          {
+                  "id": "solution",
+                  "name": "Solução",
+                  "description": "Visualizar a transformação",
+                  "questions": [
+                            {
+                                        "id": "q8",
+                                        "text": "Como você gostaria de estar em 12 meses?",
+                                        "type": "single",
+                                        "options": [
+                                                      "Ganhando 2x mais com menos trabalho",
+                                                      "Totalmente organizado e tranquilo",
+                                                      "Com agenda cheia de clientes bons",
+                                                      "Sendo referência no bairro/cidade"
+                                        ]
+                            },
+                            {
+                                        "id": "q9",
+                                        "text": "Qual seria sua solução ideal?",
+                                        "type": "single",
+                                        "options": [
+                                                      "Sistema automático de preços",
+                                                      "Organização de pedidos perfeita",
+                                                      "Aumento de produtividade",
+                                                      "Todas as anteriores"
+                                        ]
+                            },
+                            {
+                                        "id": "q10",
+                                        "text": "Quanto tempo está disposto a dedicar por semana?",
+                                        "type": "single",
+                                        "options": [
+                                                      "Até 2 horas",
+                                                      "2-5 horas",
+                                                      "5-10 horas",
+                                                      "Mais de 10 horas"
+                                        ]
+                            }
+                  ]
+          },
+          {
+                  "id": "objection",
+                  "name": "Objeção & Seal",
+                  "description": "Superar objeções",
+                  "questions": [
+                            {
+                                        "id": "q11",
+                                        "text": "O que te impede de começar HOJE?",
+                                        "type": "single",
+                                        "options": [
+                                                      "Falta de recursos financeiros",
+                                                      "Falta de tempo",
+                                                      "Medo de não funcionar",
+                                                      "Nada me impede, preciso começar!"
+                                        ]
+                            },
+                            {
+                                        "id": "q12",
+                                        "text": "Qual é seu objetivo de faturamento em 12 meses?",
+                                        "type": "single",
+                                        "options": [
+                                                      "Dobrar meu faturamento atual",
+                                                      "Triplicar meu faturamento atual",
+                                                      "Ganhar 5x mais",
+                                                      "Não sei ainda, quero explorar"
+                                        ]
+                            }
+                  ]
+          }
+    ],
+    "results": [
+          {
+                  "id": "beginner_hidden_potential",
+                  "name": "Iniciante com Potencial Escondido",
+                  "description": "Você está começando mas tem tudo para crescer muito. Seu maior desafio agora é estruturar e aprender a precificar corretamente.",
+                  "recommendation": "Comece com o básico: aprenda a calcular seu custo real, estabeleça preços justos, e organize seus pedidos em um sistema simples.",
+                  "emoji": "🌱"
+          },
+          {
+                  "id": "manager_in_transition",
+                  "name": "Gestora em Transição",
+                  "description": "Você já tem clientes e faturamento, mas está sentindo o caos do crescimento. Seu negócio está pronto para profissionalizar.",
+                  "recommendation": "Foque em organização e automação. Você precisa de sistemas para gerenciar melhor e aumentar sua margem de lucro sem multiplicar o estresse.",
+                  "emoji": "🚀"
+          },
+          {
+                  "id": "high_potential_entrepreneur",
+                  "name": "Empreendedora de Alto Potencial",
+                  "description": "Você é determinada, tem visão clara e está disposta a investir em sua evolução. Seu potencial é enorme.",
+                  "recommendation": "Você precisa de estratégia de crescimento escalável. Automatize, delegue, e foque em multiplicar seu faturamento mantendo sua sanidade mental.",
+                  "emoji": "👑"
+          }
+    ]
+}
